@@ -1,0 +1,29 @@
+@UIHCEmployeeAPI_HostAddress = https://localhost:7291
+
+
+POST {{UIHCEmployeeAPI_HostAddress}}/api/employeereceipts
+Content-Type: application/json
+
+     {"EmployeeID":1,"Date":"2025-04-17","Amount":"34.58","Description":"test desc","Receipt":"C:\\fakepath\\Brian -- Resume 2024 (1).docx"}
+
+###
+
+
+
+POST {{UIHCEmployeeAPI_HostAddress}}/api/employeereceipts
+Content-Type: application/json
+
+{
+  //EmployeeReceipt
+}
+
+###
+
+POST {{UIHCEmployeeAPI_HostAddress}}/api/employeereceipts
+Content-Type: application/json
+
+{
+  //EmployeeReceipt
+}
+
+###
